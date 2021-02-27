@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.16.3)
 
 project(collision_detection)
 
+add_compile_options("-D_PERF")
+
 set(CMAKE_CXX_STANDARD 20)
 
 add_subdirectory(lib)
